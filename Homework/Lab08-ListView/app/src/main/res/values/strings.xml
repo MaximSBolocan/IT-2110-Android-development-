@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab08-ListView</string>
+    <string-array name="pie_array">
+    <item>apple</item>
+    <item>blueberry</item>
+    <item>cherry</item>
+    <item>coconut</item>
+    </string-array>
+</resources>

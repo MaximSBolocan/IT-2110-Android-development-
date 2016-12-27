@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="4dp"
+    android:padding ="12dp"
+    android:layout_margin="4dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Large Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textViewName"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        />
+
+    <TextView
+        android:text="Medium text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewDescription"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/textViewName"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Medium Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewPrice"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:typeface="serif"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/textViewNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="Large Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNumber"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/textViewDescription"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

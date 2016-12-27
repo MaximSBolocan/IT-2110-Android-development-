@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pie_array">
+        <item>apple</item>
+        <item>bluebery</item>
+        <item>cherry</item>
+        <item>coconut cream</item>
+    </string-array>
+</resources>
